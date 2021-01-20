@@ -9,7 +9,7 @@ class Stone{
         }
         this.body=Bodies.circle(x,y,diameter,options);
         this.diameter=diameter;
-        this.image=loadImage("sprites/stone.png");
+        this.image=loadImage("stone.png");
        
         World.add(world,this.body);
     }
