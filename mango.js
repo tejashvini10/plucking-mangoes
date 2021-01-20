@@ -9,7 +9,7 @@ constructor(x,y,diameter){
     this.body=Bodies.circle(x,y,diameter,options);
     
     thisdiameter=diameter;
-    this.image=loadImage("sprites/mango.png");
+    this.image=loadImage("mango.png");
     
     World.add(world,this.body);
 }
