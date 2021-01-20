@@ -8,7 +8,7 @@ constructor(x,y,diameter){
     }
     this.body=Bodies.circle(x,y,diameter,options);
     
-    thisdiameter=diameter;
+    this.diameter=diameter;
     this.image=loadImage("mango.png");
     
     World.add(world,this.body);
