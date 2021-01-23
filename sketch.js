@@ -38,7 +38,7 @@ mango10=new Mango(900,200,35);
 
 attach=new Throw(stone.body,{x:100,y:460});
 
-tree=creteSprite(1000,400);
+tree=new Tree(1000,400);
 tree.addImage(treeimg);
 tree.scale=0.5;
 boy=createSprite(100,600);
