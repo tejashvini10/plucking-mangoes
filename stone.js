@@ -22,7 +22,7 @@ class Stone{
    
      imageMode(CENTER);
    
-     this.image(this.image,0,0,this.diameter);
+    image(this.image,0,0,this.diameter);
      pop();
 
 }
