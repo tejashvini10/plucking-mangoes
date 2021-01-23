@@ -19,8 +19,8 @@ class Throw{
     }
 
     display(){
-        if(this.sling.bodyA){
-            var pointA = this.sling.bodyA.position;
+        if(this.throw.bodyA){
+            var pointA = this.throw.bodyA.position;
             var pointB = this.pointB;
             strokeWeight(4);
             line(pointA.x, pointA.y, pointB.x, pointB.y);
