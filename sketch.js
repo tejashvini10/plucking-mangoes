@@ -90,7 +90,7 @@ function mouseDragged(){
 
 
 function mouseReleased(){
-  slingshot.fly();
+  attach.fly();
 }
 function detectCollision(lstone,lmango){
  mangoBodyPosition=lmango.body.position;
