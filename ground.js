@@ -1,5 +1,5 @@
 class Ground{
-    constructor(x,y,width,height) {
+    constructor() {
       var options = {
           isStatic: true,
           friction:0.3
