@@ -16,7 +16,7 @@ function preload()
 }
 
 function setup() {
-	createCanvas(1500, 800);
+	createCanvas(1000, 800);
 
 
 	engine = Engine.create();
@@ -40,10 +40,10 @@ attach=new Throw(stone.body,{x:100,y:460});
 
 tree=createSprite(1500,800);
 tree.addImage(treeimg);
-tree.scale=0.5;
+tree.scale=0.3;
 boy=createSprite(100,600);
 boy.addImage(boyimg);
-boy.scale=0.2;
+boy.scale=0.1;
 
 
 
