@@ -22,7 +22,7 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	ground=new Ground(500,630,1000,20);
+	ground=new Ground();
 	//Create the Bodies Here.
     stone=new Stone(235,420,30);
 mango1=new Mango(100,460,20);
@@ -38,7 +38,7 @@ mango10=new Mango(900,200,35);
 
 attach=new Throw(stone.body,{x:100,y:460});
 
-tree=new Tree(1000,400);
+tree=createSprite(1000,400);
 tree.addImage(treeimg);
 tree.scale=0.5;
 boy=createSprite(100,600);
