@@ -10,7 +10,7 @@ class Throw{
         this.throw = Constraint.create(options);
         World.add(world, this.throw);
     }
-    attach(bodyA){
+   Launch(bodyA){
         this.throw.bodyA=bodyA;
     }
 
