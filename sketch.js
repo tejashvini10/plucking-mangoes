@@ -16,7 +16,7 @@ function preload()
 }
 
 function setup() {
-	createCanvas(1000, 700);
+	createCanvas(1500, 800);
 
 
 	engine = Engine.create();
