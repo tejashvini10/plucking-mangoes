@@ -93,7 +93,7 @@ function mouseReleased(){
   slingshot.fly();
 }
 function detectCollision(lstone,lmango){
-  mangoBodyPosition=lmango.body.position;
+ mangoBodyPosition=lmango.body.position;
   stoneBodyPosition=lstone.body.position;
   var distance=dist(stoneBodyPosition.x,stoneBodyPosition.y,mangoBodyPosition.x,mangoBodyPosition.y);
 if(distance<=lmango.rlstone.r)
